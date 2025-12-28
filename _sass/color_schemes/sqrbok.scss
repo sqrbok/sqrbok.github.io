@@ -1,0 +1,60 @@
+// SQRBOK Color Scheme
+// Academic style with light blue and clean white background
+
+// Light blue palette - professional and academic
+$light-blue-000: #F0F7FF;  // Very light blue (subtle backgrounds)
+$light-blue-100: #D9EBFF;  // Light blue (sidebar, highlights)
+$light-blue-200: #A8D1FF;  // Medium light blue
+$light-blue-300: #6BB3FF;  // Clear blue (accents)
+$light-blue-400: #3D8FDB;  // Primary blue (links, buttons)
+$light-blue-500: #2563A8;  // Darker blue (headings)
+$light-blue-600: #1A4A7A;  // Deep blue (emphasis)
+
+// Academic white and greys
+$pure-white: #FFFFFF;      // Pure white (main background)
+$off-white: #FAFBFC;       // Slight off-white (alternates)
+$light-grey: #F6F8FA;      // Very light grey (code blocks)
+$border-grey: #E1E4E8;     // Light border
+$text-grey: #24292E;       // Professional dark grey for text
+$medium-grey: #6A737D;     // Medium grey for secondary text
+
+// Override Just the Docs variables with academic colors
+$body-background-color: $pure-white;
+$body-text-color: $text-grey;
+$body-heading-color: $light-blue-600;
+
+$link-color: $light-blue-400;
+$btn-primary-color: $light-blue-400;
+
+$sidebar-color: $light-blue-000;
+$nav-list-link-color: $text-grey;
+$nav-list-link-color-hover: $light-blue-400;
+$nav-list-link-color-active: $light-blue-500;
+
+// Search
+$search-background-color: $off-white;
+$search-result-preview-color: $text-grey;
+
+// Code blocks - clean and minimal
+$code-background-color: $light-grey;
+$code-linenumber-color: $light-blue-300;
+
+// Tables - academic style
+$table-background-color: $pure-white;
+$table-header-background-color: $light-blue-100;
+
+// Borders - subtle
+$border-color: $border-grey;
+
+// Breadcrumbs
+$breadcrumb-nav-color: $light-blue-300;
+
+// Callouts - use blue variants for consistency
+$blue-000: $light-blue-000;
+$blue-100: $light-blue-100;
+$blue-200: $light-blue-200;
+$blue-300: $light-blue-300;
+
+// Additional overrides for clean academic look
+$base-button-color: $light-blue-000;
+$feedback-color: $light-blue-300;
