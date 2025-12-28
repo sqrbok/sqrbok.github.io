@@ -35,7 +35,7 @@ aux_links:
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: yellow
+    color: orange
   important:
     title: Important
     color: blue
