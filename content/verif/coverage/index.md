@@ -1,6 +1,6 @@
 ---
 title: Coverage
-parent: Verification
+parent: Verification and Validation
 nav_order: 2
 layout: default
 has_children: true
