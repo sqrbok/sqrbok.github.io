@@ -14,3 +14,8 @@ This section helps to learn to:
 4. Develop valid metrics for specific quality concerns.
 5. Critically assess new metrics for their usefulness and applicability.
 6. Design and implement a successful metrics program while mitigating potential risks.
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.

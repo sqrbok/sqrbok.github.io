@@ -247,3 +247,8 @@ The industry average defect rate is **0.5–5 defects per 1,000 lines of code** 
 ### References
 
 {% bibliography --cited %}
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.

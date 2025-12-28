@@ -114,3 +114,8 @@ Helps ensure **stability and fault tolerance**.
     - System API misbehavior
 
 Goal: assess the system’s **resilience and recovery behavior**.
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.

@@ -12,3 +12,8 @@ layout: default
 - Understand the various measures of “completeness” and their relationships
 - Be able to predict from inspection the number of test cases required for a level of verification
 - Compare White box and Black box completeness measures
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.

@@ -240,3 +240,8 @@ To show **independent effect**, any 3 of the first 4 tests would be sufficient t
 
 * \[RTCA DO-178C] Software Considerations in Airborne Systems and Equipment Certification
 
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.

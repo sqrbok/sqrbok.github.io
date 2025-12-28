@@ -89,3 +89,8 @@ Downtime can have a massive financial impact, affecting businesses of all sizes 
 [Source: LinkedIn.](https://www.linkedin.com/pulse/biggest-software-failures-history-chronological-journey-corrales-3jube/)
 
 [Source: Wikipedia.](https://en.wikipedia.org/wiki/List_of_software_bugs)
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.

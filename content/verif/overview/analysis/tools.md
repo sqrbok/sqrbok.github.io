@@ -432,3 +432,8 @@ layout: default
     
 - **Example**: PIPE is used in academic research for modeling and analyzing concurrent systems. ([GitHub](https://github.com/sarahtattersall/PIPE "sarahtattersall/PIPE - Platform Independent Petri Net Editor - GitHub"))
     
+
+---
+
+{: .highlight }
+**Disclaimer:** AI is used for text polishing and explaining. Authors have verified all facts and claims. In case of an error, feel free to file an issue.
