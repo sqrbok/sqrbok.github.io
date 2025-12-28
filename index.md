@@ -29,33 +29,33 @@ Understand the essence of software quality:
 
 ---
 
-### 2. [Organizing Quality](/sqrbok/organization/) 🔄  
-Explore how to manage and assure quality effectively:  
-- The cost of quality  
-- Project-level quality management  
-- Quality processes in organizations  
-- Organizational strategies for software quality  
+### 2. [Organizing Quality](/content/organization/) 🔄
+Explore how to manage and assure quality effectively:
+- The cost of quality
+- Project-level quality management
+- Quality processes in organizations
+- Organizational strategies for software quality
 
 ---
 
-### 3. [Verification and Validation](/content/verif/) 📏  
-Learn methods to ensure software reliability and correctness:  
-- Functional testing (Black Box testing)  
-- Structural testing (White Box testing)  
-- Static analysis techniques  
+### 3. [Verification and Validation](/content/verif/) 📏
+Learn methods to ensure software reliability and correctness:
+- Functional testing (Black Box testing)
+- Structural testing (White Box testing)
+- Static analysis techniques
 
 ---
 
-### 4. [Quality Attributes](/sqrbok/attributes/) 🧩  
-Dive into key software quality attributes:  
-- Maintainability  
-- Reliability  
-- Security  
-- Usability  
+### 4. [Quality Attributes](/content/attributes/) 🧩
+Dive into key software quality attributes:
+- Maintainability
+- Reliability
+- Security
+- Usability
 
 ---
 
-### 5. [Selected Materials](/sqrbok/material/) 📚  
+### 5. [Selected Materials](/content/material/) 📚  
 Access curated references and resources:  
 - Books  
 - Research papers  
@@ -63,9 +63,9 @@ Access curated references and resources:
 
 ---
 
-## 🛠️ Resources  
+## 🛠️ Resources
 
-- **Contribution Template**: [Get started with the contribution template](/sqrbok/template/)  
+- **Contribution Template**: [Get started with the contribution template](/content/template/)
   Help us improve these notes by following the provided contribution guidelines.
 
 ---
