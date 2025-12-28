@@ -18,3 +18,5 @@ vendor/
 .DS_Store/
 .DS_Store*
 content/verif/.DS_Store
+
+.claude/
