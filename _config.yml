@@ -25,6 +25,10 @@ color_scheme: sqrbok
 
 url: https://sqrbok.github.io/
 
+logo: "/images/logo/sqr_logo.png"
+
+favicon_ico: "/images/logo/favicon.ico"
+
 aux_links:
   Handbook Repo: https://github.com/sqrbok/sqrbok.github.io
 
