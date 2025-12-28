@@ -4,6 +4,10 @@ layout: home
 nav_order: 1
 ---
 
+<div align="center">
+  <img src="/images/logo/sqr_logo.png" alt="SQRBOK Logo" style="width:180px; margin-bottom: 1em;" />
+</div>
+
 # Software Quality and Reliability 📘
 
 Welcome to the course notes repository for **Software Quality and Reliability** (with occasional insights on Security and other properties). 
