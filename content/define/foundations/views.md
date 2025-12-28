@@ -1,6 +1,6 @@
 ---
-parent: Quality
-nav_order: 2
+parent: Foundations
+nav_order: 1
 title: Views
 layout: default
 ---

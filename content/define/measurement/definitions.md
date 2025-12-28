@@ -1,5 +1,5 @@
 ---
-parent: Metrics
+parent: Measurement
 nav_order: 1
 title: Definitions
 layout: default

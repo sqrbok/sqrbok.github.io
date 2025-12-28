@@ -46,35 +46,27 @@ Quality as worth or benefit relative to cost—balancing quality with constraint
 
 ## Topics in This Section
 
-### [Quality Views & Perspectives](views.md)
-Explore different ways of thinking about quality and how stakeholder perspectives shape quality definitions.
-
-### [Quality Models](models.md)
-Learn about structured frameworks for understanding and measuring quality:
-- ISO 25010 (SQuaRE)
-- McCall's Quality Model
-- Boehm's Quality Model
-- FURPS+ Model
-
-### [Quality Metrics](metrics/)
-Understand how to measure quality through:
-- **Definitions** - What makes a good quality metric?
-- **Measurements** - Product, process, and resource metrics
-- **Examples** - LOC, cyclomatic complexity, defect density
-- **Development** - Goal-Question-Metric (GQM) approach
-- **Pitfalls** - Common mistakes in measuring quality
-
 ### [Importance of Quality](importance.md)
+
 Understand why software quality matters and the real-world consequences of quality failures.
 
-### [Quality Gurus](gurus.md)
-Learn from the pioneers who shaped our understanding of quality:
-- Walter Shewhart - Statistical Process Control
-- W. Edwards Deming - PDCA Cycle and System Thinking
-- Joseph Juran - Fitness for Purpose, Pareto Principle
-- Philipp Crosby - Zero Defects, Prevention
-- Kaoru Ishikawa - Fishbone Diagrams, Quality Circles
-- Watts Humphrey - Software Quality, CMM
+### [Foundations](foundations/)
+
+Explore fundamental concepts and perspectives on quality:
+
+- **[Views](foundations/views.md)** - Five perspectives on quality (Garvin)
+- **[Models](foundations/models.md)** - Structured frameworks (ISO 25010, McCall, Kano)
+- **[Gurus](foundations/gurus.md)** - Quality pioneers and their contributions
+
+### [Measurement](measurement/)
+
+Learn how to quantify and track quality:
+
+- **[Definitions](measurement/definitions.md)** - What makes a good metric?
+- **[Types](measurement/types.md)** - Product, process, and resource metrics
+- **[Examples](measurement/examples.md)** - LOC, complexity, defect density
+- **[Development](measurement/development.md)** - Goal-Question-Metric (GQM) approach
+- **[Pitfalls](measurement/pitfalls.md)** - Common measurement mistakes
 
 ---
 

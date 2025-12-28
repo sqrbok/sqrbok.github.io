@@ -1,7 +1,7 @@
 ---
-parent: Metrics
-nav_order: 4
-title: Measurements
+parent: Measurement
+nav_order: 2
+title: Types
 layout: default
 ---
 

@@ -1,6 +1,6 @@
 ---
-parent: Quality
-nav_order: 3
+parent: Foundations
+nav_order: 2
 title: Models
 layout: default
 ---

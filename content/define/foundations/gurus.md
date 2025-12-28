@@ -1,6 +1,6 @@
 ---
-parent: Quality
-nav_order: 5
+parent: Foundations
+nav_order: 3
 title: Gurus
 layout: default
 ---

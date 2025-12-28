@@ -1,6 +1,6 @@
 ---
-parent: Metrics
-nav_order: 6
+parent: Measurement
+nav_order: 3
 title: Examples
 layout: default
 ---

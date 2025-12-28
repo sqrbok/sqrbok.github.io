@@ -1,6 +1,6 @@
 ---
-parent: Metrics
-nav_order: 2
+parent: Measurement
+nav_order: 5
 title: Pitfalls
 layout: default
 ---
