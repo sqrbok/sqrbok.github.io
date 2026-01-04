@@ -79,6 +79,14 @@ Frameworks and certifications for quality management:
 - **[ISO 9001](standards/iso9001.md)** - International quality management standard
 - **[Six Sigma](standards/six_sigma.md)** - Data-driven quality improvement methodology
 
+### [Industry Practices](practices/)
+
+Learn from leading technology companies:
+
+- **[Google Engineering Practices](practices/google.md)** - Code review, testing, and SRE at scale
+- **[Microsoft Quality Practices](practices/microsoft.md)** - SDL, feature flags, telemetry-driven quality
+- **[Site Reliability Engineering](practices/sre.md)** - SLOs, error budgets, and toil reduction
+
 ---
 
 ## Key Principles of Quality Organization

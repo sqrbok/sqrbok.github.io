@@ -7,157 +7,242 @@ layout: default
 
 # Quality Planning
 
-Quality planning is the process of identifying quality requirements and standards for the project and documenting how the project will demonstrate compliance. It establishes the quality framework for the entire project.
+> **Reading time:** 5 min | **Level:** Beginner
+
+Quality Planning defines what quality means for a project and how to achieve it. A Quality Plan establishes quality objectives, activities, responsibilities, and schedules before development begins.
 
 ---
 
 ## What is Quality Planning?
 
-Quality planning answers fundamental questions:
+**Quality Planning** = defining quality objectives and specifying necessary processes and resources to fulfill them.
 
-- What does "quality" mean for this project?
-- What quality standards apply?
-- How will we measure quality?
-- What quality activities will we perform?
-- Who is responsible for quality?
-- When will quality activities occur?
-- What resources do we need for quality?
+### Quality Planning vs Control vs Assurance
 
----
+| Activity | Focus | When | Question |
+|----------|-------|------|----------|
+| **Planning** | Define | Before development | What does quality mean? |
+| **Control** | Monitor | During development | Are we meeting targets? |
+| **Assurance** | Verify | Throughout | Is our process working? |
 
-## Key Topics
-
-### Quality Management Plan
-
-Components of a comprehensive quality management plan:
-
-- Quality objectives and success criteria
-- Quality standards and compliance requirements
-- Quality roles and responsibilities
-- Quality processes and procedures
-- Verification and validation approach
-- Quality metrics and measurement
-- Quality tools and techniques
-- Quality schedule and milestones
-- Quality budget and resources
-
-### Quality Standards
-
-Identifying applicable standards:
-
-- Industry standards (ISO, IEEE, etc.)
-- Organizational standards
-- Regulatory requirements
-- Customer-specific standards
-- Coding standards
-- Documentation standards
-- Testing standards
-
-### Quality Baselines
-
-Establishing quality baselines:
-
-- Scope baseline (quality of requirements)
-- Schedule baseline (time for quality activities)
-- Cost baseline (budget for quality)
-- Performance baseline (quality metrics targets)
-
-### Quality Activities
-
-Planning verification and validation:
-
-- Requirements reviews
-- Design reviews
-- Code reviews and inspections
-- Unit testing
-- Integration testing
-- System testing
-- Acceptance testing
-- Usability testing
-- Performance testing
-- Security testing
-
-### Resource Allocation
-
-Allocating resources for quality:
-
-- Testing team sizing
-- Review time allocation
-- Tool licenses and infrastructure
-- Training and skill development
-- External audit or certification costs
+Quality Planning happens **before** development; the plan guides Control and Assurance activities.
 
 ---
 
-## Planning Techniques
+## Components of a Quality Plan
 
-### Work Breakdown Structure (WBS)
+### 1. Quality Objectives
 
-Including quality work packages:
+What does "quality" mean for this project?
 
-- Review activities
-- Testing cycles
-- Defect fixing time
-- Quality audits
-- Documentation
+**Examples:**
+- "Zero critical defects at release"
+- "Response time < 200ms for 99% of requests"
+- "Code coverage > 80%"
+- "Pass security audit"
 
-### Cost-Benefit Analysis
+Objectives should be **SMART**:
+- **S**pecific — Clear and unambiguous
+- **M**easurable — Quantifiable
+- **A**chievable — Realistic given constraints
+- **R**elevant — Aligned with business goals
+- **T**ime-bound — Has a deadline
 
-Analyzing quality investments:
+### 2. Quality Activities
 
-- Prevention vs. appraisal vs. failure costs
-- ROI of automated testing
-- Value of code reviews
-- Cost of technical debt
+What will we do to achieve objectives?
 
-### Benchmarking
+| Activity | Purpose | When |
+|----------|---------|------|
+| Code review | Catch defects early | Every PR |
+| Unit testing | Verify component behavior | During development |
+| Integration testing | Verify interactions | After integration |
+| Performance testing | Validate performance | Before release |
+| Security review | Find vulnerabilities | Before release |
 
-Using historical data:
+### 3. Quality Metrics
 
-- Defect rates from similar projects
-- Testing effort percentages
-- Review effectiveness metrics
-- Industry benchmarks
+How will we measure progress?
+
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| Defect density | < 1 per KLOC | Defects / code size |
+| Code coverage | > 80% | Coverage tool |
+| Review coverage | 100% | PRs reviewed / total PRs |
+| Test pass rate | > 99% | Passed / total tests |
+
+### 4. Roles and Responsibilities
+
+Who is responsible for what?
+
+| Role | Responsibility |
+|------|----------------|
+| Developer | Write tests, fix defects |
+| Tech Lead | Review code, enforce standards |
+| QA Engineer | Design test strategy, automation |
+| Product Owner | Define acceptance criteria |
+
+### 5. Schedule
+
+When do quality activities happen?
+
+```
+Week 1-2: Requirements review, test strategy
+Week 3-6: Development with continuous testing
+Week 7:   Integration testing, performance testing
+Week 8:   Security review, bug fixing
+Week 9:   Release candidate, final testing
+Week 10:  Release
+```
 
 ---
 
-## Quality Planning Outputs
+## Quality Gates
 
-- Quality management plan
-- Quality metrics definition
-- Quality checklists
-- Process improvement plan
-- Test strategy and plan
-- Review schedule
-- Quality gate criteria
+### What are Quality Gates?
+
+**Quality Gate** = checkpoint where deliverables must meet criteria before proceeding.
+
+Quality gates enforce the quality plan by blocking progress until standards are met.
+
+### Common Quality Gates
+
+| Gate | Criteria | Blocks |
+|------|----------|--------|
+| PR Merge | Tests pass, review approved, no lint errors | Merge to main |
+| Build | Compilation succeeds, unit tests pass | Deployment |
+| Staging | Integration tests pass, no critical bugs | Production deploy |
+| Release | All tests pass, security approved, performance validated | Customer release |
+
+### Example: CI/CD Quality Gate
+
+```yaml
+# Simplified pipeline quality gate
+quality_gate:
+  rules:
+    - test_coverage >= 80%
+    - critical_bugs == 0
+    - security_vulnerabilities == 0
+    - performance_regression == false
+  action:
+    pass: deploy_to_staging
+    fail: notify_team, block_deploy
+```
 
 ---
 
-## Best Practices
+## Creating a Quality Plan
 
-1. **Plan quality early** - Don't wait until testing phase
-2. **Involve stakeholders** - Get agreement on quality criteria
-3. **Be specific** - Vague quality goals lead to disputes
-4. **Make it measurable** - Define how you'll know quality is achieved
-5. **Allocate realistically** - Budget 20-40% of project effort for quality
-6. **Document assumptions** - Be explicit about quality constraints
-7. **Plan for continuous improvement** - Include retrospectives and lessons learned
+### Step 1: Understand Context
+
+- What are the business goals?
+- Who are the users?
+- What are the risks?
+- What are the constraints (time, budget, team)?
+
+### Step 2: Define Objectives
+
+Based on context, define measurable quality objectives:
+
+| Business Goal | Quality Objective |
+|---------------|-------------------|
+| High availability | 99.9% uptime SLO |
+| Fast user experience | p95 latency < 500ms |
+| Secure data | Pass penetration test |
+| Maintainable code | Cyclomatic complexity < 10 |
+
+### Step 3: Plan Activities
+
+Map objectives to activities:
+
+| Objective | Activities |
+|-----------|------------|
+| 99.9% uptime | Chaos testing, redundancy review, monitoring |
+| p95 < 500ms | Load testing, performance profiling |
+| Security | Security review, SAST/DAST, pen test |
+| Maintainability | Code review, static analysis |
+
+### Step 4: Allocate Resources
+
+- Time in schedule for quality activities
+- Budget for tools and testing
+- People with required skills
+- Infrastructure for testing
+
+### Step 5: Document and Communicate
+
+Write the plan and share with stakeholders:
+- Executive summary
+- Detailed activities and schedule
+- Metrics and reporting
+- Escalation procedures
+
+---
+
+## Quality Plan Template
+
+```markdown
+# Quality Plan: [Project Name]
+
+## 1. Overview
+Brief project description and quality scope
+
+## 2. Quality Objectives
+| Objective | Target | Measure |
+|-----------|--------|---------|
+| ... | ... | ... |
+
+## 3. Quality Activities
+| Activity | Owner | Schedule | Deliverable |
+|----------|-------|----------|-------------|
+| ... | ... | ... | ... |
+
+## 4. Quality Gates
+| Gate | Criteria | Decision |
+|------|----------|----------|
+| ... | ... | ... |
+
+## 5. Metrics and Reporting
+How and when quality will be measured and reported
+
+## 6. Risks and Mitigations
+Quality-related risks and how to address them
+
+## 7. Tools and Infrastructure
+Testing tools, environments, automation
+
+## 8. Roles and Responsibilities
+Who does what for quality
+```
 
 ---
 
 ## Common Pitfalls
 
-- Planning quality as an afterthought
-- Underestimating time and cost for quality
-- Copying quality plans from other projects without customization
-- Ignoring non-functional requirements
-- Not defining clear acceptance criteria
-- Failing to get stakeholder buy-in on quality standards
+| Pitfall | Solution |
+|---------|----------|
+| Vague objectives | Make objectives SMART |
+| No time for quality | Include quality in project schedule |
+| Quality as afterthought | Plan quality from day one |
+| Unrealistic targets | Base targets on historical data |
+| No enforcement | Implement quality gates |
 
 ---
 
-{: .note }
-**Status**: Placeholder. Detailed content with examples, templates, and case studies will be added.
+## Related Topics
+
+- [Quality Goals (GQM)](quality-goals/) — Goal-Question-Metric approach
+- [Quality Metrics](../processes/) — Measuring quality
+- [CI/CD Quality Gates](../../verif/) — Automated enforcement
+
+---
+
+## Further Reading
+
+- "Managing Software Quality" — Stephen H. Kan (Addison-Wesley)
+- [PMBOK Guide](https://www.pmi.org/pmbok-guide-standards) — Quality Management chapter
+- ISO 9001:2015 — Quality management principles
+- [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) — Chapter on Code Review
 
 ---
 
