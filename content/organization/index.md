@@ -48,61 +48,61 @@ Quality organization operates at multiple levels:
 
 ## Topics in This Section
 
-### [Process Improvement](process/)
-
-Systematic approaches to enhancing organizational performance:
-
-- **[Why Process Improvement?](process/01-why-process-improvement.md)** - Business case, motivations, and barriers
-- **[Learning & Improvement Models](process/02-learning-improvement-models.md)** - Single-loop vs. double-loop learning
-- **[Improvement Methods](process/03-improvement-methods.md)** - PDCA, DMAIC, Theory of Constraints, Six Sigma
-- **[Change Management](process/04-change-management.md)** - Overcoming resistance and sustaining change
-
-### [Industry Practices](practice/)
-
-Learn from leading technology companies and proven methodologies:
-
-- **[DevOps Foundations](practice/01-devops-foundations.md)** - CALMS framework and core principles
-- **[DevOps Teams & Adoption](practice/02-devops-teams-adoption.md)** - Team structures and transformation
-- **[Agile Retrospectives](practice/03-agile-retrospectives.md)** - Continuous improvement through reflection
-- **[Testing Practices](practice/04-testing-practices.md)** - Shift-left, shift-right, and continuous testing
-- **[PSP & TSP](practice/05-psp-tsp.md)** - Personal and Team Software Process
-- **[Site Reliability Engineering](practice/06-site-reliability-engineering.md)** - SLOs, error budgets, and toil reduction
-- **[Industry Case Studies](practice/07-industry-case-studies.md)** - Google, Microsoft, Facebook, Netflix
-
-### [Quality Standards](standards/)
-
-Frameworks and certifications for quality management:
-
-- **[CMMI Overview](standards/01-cmmi-overview.md)** - Structure, maturity levels, and process areas
-- **[CMMI Adoption & Integration](standards/02-cmmi-adoption-integration.md)** - Implementation and Agile integration
-- **[ITIL Framework](standards/03-itil-framework.md)** - IT service management best practices
-- **[ITIL Implementation](standards/04-itil-implementation.md)** - Practical implementation guidance
-- **[ISO 9000 Quality Systems](standards/05-iso-9000-quality-systems.md)** - International quality standards
-- **[TMMi & Maturity Models](standards/06-tmmi-maturity-models.md)** - Testing-specific process improvement
-
-### [Cost of Quality](coq/)
+### [Cost of Quality](01-coq/)
 
 Understanding and optimizing quality economics:
 
-- **[CoSQ Foundations](coq/01-cosq-foundations.md)** - Prevention, appraisal, and failure costs
-- **[Defect Injection & Removal](coq/02-defect-injection-removal.md)** - Where defects come from and how they're removed
-- **[Defect Classification](coq/03-defect-classification.md)** - ODC and practical classification schemes
-- **[Quality Economics in DevOps](coq/04-quality-economics-devops.md)** - Shift-left economics and flaky tests
-- **[Code Review ROI](coq/05-code-review-roi.md)** - Return on investment of code review
-- **[Technical Debt](coq/06-technical-debt.md)** - Quantifying and managing technical debt
-- **[Defect Prediction with ML](coq/07-defect-prediction-ml.md)** - Machine learning for defect prediction
+- **[CoSQ Foundations](01-coq/01-cosq-foundations.md)** - Prevention, appraisal, and failure costs
+- **[Defect Injection & Removal](01-coq/02-defect-injection-removal.md)** - Where defects come from and how they're removed
+- **[Defect Classification](01-coq/03-defect-classification.md)** - ODC and practical classification schemes
+- **[Quality Economics in DevOps](01-coq/04-quality-economics-devops.md)** - Shift-left economics and flaky tests
+- **[Code Review ROI](01-coq/05-code-review-roi.md)** - Return on investment of code review
+- **[Technical Debt](01-coq/06-technical-debt.md)** - Quantifying and managing technical debt
+- **[Defect Prediction with ML](01-coq/07-defect-prediction-ml.md)** - Machine learning for defect prediction
 
-### [Quality Planning](plan/)
+### [Quality Planning](02-plan/)
 
 Building quality into project schedules and budgets:
 
-- **[Quality Management & Planning](plan/01-quality-management-planning.md)** - Four components and 11 decisions
-- **[V&V Activities & Process Models](plan/02-vv-activities-process-models.md)** - V&V across development approaches
-- **[Quality Gates & Criticality](plan/03-quality-gates-criticality.md)** - Entry/exit criteria and phase gates
-- **[Test Effort Estimation](plan/04-test-effort-estimation.md)** - Methods for estimating testing effort
-- **[Test Documentation (IEEE 829)](plan/05-test-documentation-ieee829.md)** - Master test plans and standards
-- **[Metrics, Dashboards & Reporting](plan/06-metrics-dashboards-reporting.md)** - Quality metrics and visualization
-- **[Domain-Specific V&V](plan/07-domain-specific-vv.md)** - Automotive, IoT, robotics V&V
+- **[Quality Management & Planning](02-plan/01-quality-management-planning.md)** - Four components and 11 decisions
+- **[V&V Activities & Process Models](02-plan/02-vv-activities-process-models.md)** - V&V across development approaches
+- **[Quality Gates & Criticality](02-plan/03-quality-gates-criticality.md)** - Entry/exit criteria and phase gates
+- **[Test Effort Estimation](02-plan/04-test-effort-estimation.md)** - Methods for estimating testing effort
+- **[Test Documentation (IEEE 829)](02-plan/05-test-documentation-ieee829.md)** - Master test plans and standards
+- **[Metrics, Dashboards & Reporting](02-plan/06-metrics-dashboards-reporting.md)** - Quality metrics and visualization
+- **[Domain-Specific V&V](02-plan/07-domain-specific-vv.md)** - Automotive, IoT, robotics V&V
+
+### [Process Improvement](03-process/)
+
+Systematic approaches to enhancing organizational performance:
+
+- **[Why Process Improvement?](03-process/01-why-process-improvement.md)** - Business case, motivations, and barriers
+- **[Learning & Improvement Models](03-process/02-learning-improvement-models.md)** - Single-loop vs. double-loop learning
+- **[Improvement Methods](03-process/03-improvement-methods.md)** - PDCA, DMAIC, Theory of Constraints, Six Sigma
+- **[Change Management](03-process/04-change-management.md)** - Overcoming resistance and sustaining change
+
+### [Quality Standards](04-standards/)
+
+Frameworks and certifications for quality management:
+
+- **[CMMI Overview](04-standards/01-cmmi-overview.md)** - Structure, maturity levels, and process areas
+- **[CMMI Adoption & Integration](04-standards/02-cmmi-adoption-integration.md)** - Implementation and Agile integration
+- **[ITIL Framework](04-standards/03-itil-framework.md)** - IT service management best practices
+- **[ITIL Implementation](04-standards/04-itil-implementation.md)** - Practical implementation guidance
+- **[ISO 9000 Quality Systems](04-standards/05-iso-9000-quality-systems.md)** - International quality standards
+- **[TMMi & Maturity Models](04-standards/06-tmmi-maturity-models.md)** - Testing-specific process improvement
+
+### [Industry Practices](05-practice/)
+
+Learn from leading technology companies and proven methodologies:
+
+- **[DevOps Foundations](05-practice/01-devops-foundations.md)** - CALMS framework and core principles
+- **[DevOps Teams & Adoption](05-practice/02-devops-teams-adoption.md)** - Team structures and transformation
+- **[Agile Retrospectives](05-practice/03-agile-retrospectives.md)** - Continuous improvement through reflection
+- **[Testing Practices](05-practice/04-testing-practices.md)** - Shift-left, shift-right, and continuous testing
+- **[PSP & TSP](05-practice/05-psp-tsp.md)** - Personal and Team Software Process
+- **[Site Reliability Engineering](05-practice/06-site-reliability-engineering.md)** - SLOs, error budgets, and toil reduction
+- **[Industry Case Studies](05-practice/07-industry-case-studies.md)** - Google, Microsoft, Facebook, Netflix
 
 ---
 

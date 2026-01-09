@@ -1,7 +1,7 @@
 ---
 title: Quality Planning
 parent: Organizing Quality
-nav_order: 5
+nav_order: 2
 layout: default
 has_children: true
 ---

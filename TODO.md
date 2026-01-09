@@ -40,72 +40,106 @@ This document tracks missing sections and content to be developed based on the [
 
 ---
 
-## 2. Organisation / Quality Assurance 📝
+## 2. Organisation / Quality Assurance ✅
 
-**Status**: Placeholder only, needs comprehensive content
+**Status**: Complete - comprehensive content added January 2026
 
-### ❌ Project Quality
-**Priority**: High
-**Content needed**:
-- [ ] Quality planning in projects
-- [ ] Quality goals and objectives
-- [ ] Quality roles and responsibilities
-- [ ] Project quality metrics and KPIs
-- [ ] Quality gates and milestones
+### ✅ Cost of Quality
+- [x] CoSQ Foundations - Prevention, appraisal, and failure costs
+- [x] Defect Injection & Removal - Where defects come from and how they're removed
+- [x] Defect Classification - ODC and practical classification schemes
+- [x] Quality Economics in DevOps - Shift-left economics and flaky tests
+- [x] Code Review ROI - Return on investment of code review
+- [x] Technical Debt - Quantifying and managing technical debt
+- [x] Defect Prediction with ML - Machine learning for defect prediction
 
-### ❌ Quality Processes
-**Priority**: High
-**Content needed**:
-- [ ] Quality management processes
-- [ ] Process improvement frameworks (PDCA, DMAIC)
-- [ ] Process maturity models
-- [ ] Quality audits and assessments
-- [ ] Continuous improvement
+**Location**: `content/organization/01-coq/`
 
-### ❌ Cost of Quality
-**Priority**: Medium
-**Content needed**:
-- [ ] Prevention costs
-- [ ] Appraisal costs
-- [ ] Internal failure costs
-- [ ] External failure costs
-- [ ] Cost-benefit analysis of quality activities
-- [ ] ROI of quality investments
+### ✅ Quality Planning
+- [x] Quality Management & Planning - Four components and 11 decisions
+- [x] V&V Activities & Process Models - V&V across development approaches
+- [x] Quality Gates & Criticality - Entry/exit criteria and phase gates
+- [x] Test Effort Estimation - Methods for estimating testing effort
+- [x] Test Documentation (IEEE 829) - Master test plans and standards
+- [x] Metrics, Dashboards & Reporting - Quality metrics and visualization
+- [x] Domain-Specific V&V - Automotive, IoT, robotics V&V
 
-### ❌ Organizational Quality / CMMI
-**Priority**: Medium
-**Content needed**:
-- [ ] CMMI overview and levels
-- [ ] Process areas and practices
-- [ ] Organizational maturity assessment
-- [ ] ISO 9001 and quality standards
-- [ ] Six Sigma in software
-- [ ] Total Quality Management (TQM)
+**Location**: `content/organization/02-plan/`
 
-**Location**: `content/organization/`
-**Suggested structure**:
+### ✅ Process Improvement
+- [x] Why Process Improvement? - Business case, motivations, barriers
+- [x] Learning & Improvement Models - Single-loop vs. double-loop learning
+- [x] Improvement Methods - PDCA, DMAIC, Theory of Constraints, Six Sigma
+- [x] Change Management - Overcoming resistance and sustaining change
+
+**Location**: `content/organization/03-process/`
+
+### ✅ Quality Standards
+- [x] CMMI Overview - Structure, maturity levels, and process areas
+- [x] CMMI Adoption & Integration - Implementation and Agile integration
+- [x] ITIL Framework - IT service management best practices
+- [x] ITIL Implementation - Practical implementation guidance
+- [x] ISO 9000 Quality Systems - International quality standards
+- [x] TMMi & Maturity Models - Testing-specific process improvement
+
+**Location**: `content/organization/04-standards/`
+
+### ✅ Industry Practices
+- [x] DevOps Foundations - CALMS framework and core principles
+- [x] DevOps Teams & Adoption - Team structures and transformation
+- [x] Agile Retrospectives - Continuous improvement through reflection
+- [x] Testing Practices - Shift-left, shift-right, and continuous testing
+- [x] PSP & TSP - Personal and Team Software Process
+- [x] Site Reliability Engineering - SLOs, error budgets, and toil reduction
+- [x] Industry Case Studies - Google, Microsoft, Facebook, Netflix
+
+**Location**: `content/organization/05-practice/`
+
+**Full structure**:
 ```
 organization/
-├── index.md (update with comprehensive content)
-├── project/
+├── index.md (comprehensive overview with links)
+├── 01-coq/
 │   ├── index.md
-│   ├── planning.md
-│   ├── goals.md
-│   └── metrics.md
-├── processes/
+│   ├── 01-cosq-foundations.md
+│   ├── 02-defect-injection-removal.md
+│   ├── 03-defect-classification.md
+│   ├── 04-quality-economics-devops.md
+│   ├── 05-code-review-roi.md
+│   ├── 06-technical-debt.md
+│   └── 07-defect-prediction-ml.md
+├── 02-plan/
 │   ├── index.md
-│   ├── improvement.md
-│   ├── maturity.md
-│   └── audits.md
-├── cost/
+│   ├── 01-quality-management-planning.md
+│   ├── 02-vv-activities-process-models.md
+│   ├── 03-quality-gates-criticality.md
+│   ├── 04-test-effort-estimation.md
+│   ├── 05-test-documentation-ieee829.md
+│   ├── 06-metrics-dashboards-reporting.md
+│   └── 07-domain-specific-vv.md
+├── 03-process/
 │   ├── index.md
-│   ├── categories.md
-│   └── analysis.md
-└── standards/
+│   ├── 01-why-process-improvement.md
+│   ├── 02-learning-improvement-models.md
+│   ├── 03-improvement-methods.md
+│   └── 04-change-management.md
+├── 04-standards/
+│   ├── index.md
+│   ├── 01-cmmi-overview.md
+│   ├── 02-cmmi-adoption-integration.md
+│   ├── 03-itil-framework.md
+│   ├── 04-itil-implementation.md
+│   ├── 05-iso-9000-quality-systems.md
+│   └── 06-tmmi-maturity-models.md
+└── 05-practice/
     ├── index.md
-    ├── cmmi.md
-    ├── iso9001.md
-    └── six-sigma.md
+    ├── 01-devops-foundations.md
+    ├── 02-devops-teams-adoption.md
+    ├── 03-agile-retrospectives.md
+    ├── 04-testing-practices.md
+    ├── 05-psp-tsp.md
+    ├── 06-site-reliability-engineering.md
+    └── 07-industry-case-studies.md
 ```
 
 ---
@@ -404,24 +438,24 @@ Not shown in overview but valuable additions:
 ## 7. Priority Ranking
 
 ### Immediate (Next Sprint)
-1. **Organization section** - Fill in project quality and processes
+1. ~~**Organization section** - Fill in project quality and processes~~ ✅ Complete
 2. **Attributes/Performance** - Critical for most projects
 3. **Functional testing techniques** - Expand with detailed examples
 4. **Security basics** - Growing importance
 
-### Short Term (1-2 months)
+### Short Term
 5. **Attributes/Reliability** - Complete the section
 6. **Attributes/Maintainability** - Technical debt focus
 7. **Model-based testing** - Increasingly relevant
 8. **Exploratory testing** - Practical guidance
 
-### Medium Term (3-6 months)
+### Medium Term
 9. **Attributes/Usability** - Complete the picture
 10. **Advanced verification methods**
-11. **Cost of quality** - Economic justification
-12. **CMMI and standards**
+11. ~~**Cost of quality** - Economic justification~~ ✅ Complete (in organization/coq/)
+12. ~~**CMMI and standards**~~ ✅ Complete (in organization/standards/)
 
-### Long Term (6+ months)
+### Long Term
 13. **Modern testing contexts** (microservices, cloud, etc.)
 14. **Material/Resources** section
 15. **Random and metamorphic testing**
@@ -455,4 +489,4 @@ Not shown in overview but valuable additions:
 - Cross-reference related topics with markdown links
 - Include practical examples and real-world applications
 
-**Last Updated**: 2025-12-28
+**Last Updated**: 2026-01-09

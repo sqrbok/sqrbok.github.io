@@ -1,7 +1,7 @@
 ---
 title: Industry Practices
 parent: Organizing Quality
-nav_order: 2
+nav_order: 5
 layout: default
 has_children: true
 ---
