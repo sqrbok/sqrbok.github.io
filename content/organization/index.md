@@ -48,44 +48,61 @@ Quality organization operates at multiple levels:
 
 ## Topics in This Section
 
-### [Project Quality](project/)
+### [Process Improvement](process/)
 
-Managing quality at the project level:
+Systematic approaches to enhancing organizational performance:
 
-- **[Quality Planning](project/planning.md)** - Defining quality objectives, activities, and schedules
-- **[Quality Goals](project/goals.md)** - Setting SMART quality objectives aligned with business needs
-- **[Quality Metrics](project/metrics.md)** - Tracking and reporting project quality indicators
+- **[Why Process Improvement?](process/01-why-process-improvement.md)** - Business case, motivations, and barriers
+- **[Learning & Improvement Models](process/02-learning-improvement-models.md)** - Single-loop vs. double-loop learning
+- **[Improvement Methods](process/03-improvement-methods.md)** - PDCA, DMAIC, Theory of Constraints, Six Sigma
+- **[Change Management](process/04-change-management.md)** - Overcoming resistance and sustaining change
 
-### [Quality Processes](processes/)
+### [Industry Practices](practice/)
 
-Systematic approaches to quality management:
+Learn from leading technology companies and proven methodologies:
 
-- **[Process Improvement](processes/improvement.md)** - PDCA, DMAIC, and continuous improvement
-- **[Process Maturity](processes/maturity.md)** - Capability maturity models and assessment
-- **[Quality Audits](processes/audits.md)** - Internal and external quality reviews
-
-### [Cost of Quality](cost/)
-
-Understanding and optimizing quality economics:
-
-- **[Cost Categories](cost/categories.md)** - Prevention, appraisal, internal failure, external failure
-- **[Cost-Benefit Analysis](cost/analysis.md)** - ROI of quality investments and trade-offs
+- **[DevOps Foundations](practice/01-devops-foundations.md)** - CALMS framework and core principles
+- **[DevOps Teams & Adoption](practice/02-devops-teams-adoption.md)** - Team structures and transformation
+- **[Agile Retrospectives](practice/03-agile-retrospectives.md)** - Continuous improvement through reflection
+- **[Testing Practices](practice/04-testing-practices.md)** - Shift-left, shift-right, and continuous testing
+- **[PSP & TSP](practice/05-psp-tsp.md)** - Personal and Team Software Process
+- **[Site Reliability Engineering](practice/06-site-reliability-engineering.md)** - SLOs, error budgets, and toil reduction
+- **[Industry Case Studies](practice/07-industry-case-studies.md)** - Google, Microsoft, Facebook, Netflix
 
 ### [Quality Standards](standards/)
 
 Frameworks and certifications for quality management:
 
-- **[CMMI](standards/cmmi.md)** - Capability Maturity Model Integration
-- **[ISO 9001](standards/iso9001.md)** - International quality management standard
-- **[Six Sigma](standards/six_sigma.md)** - Data-driven quality improvement methodology
+- **[CMMI Overview](standards/01-cmmi-overview.md)** - Structure, maturity levels, and process areas
+- **[CMMI Adoption & Integration](standards/02-cmmi-adoption-integration.md)** - Implementation and Agile integration
+- **[ITIL Framework](standards/03-itil-framework.md)** - IT service management best practices
+- **[ITIL Implementation](standards/04-itil-implementation.md)** - Practical implementation guidance
+- **[ISO 9000 Quality Systems](standards/05-iso-9000-quality-systems.md)** - International quality standards
+- **[TMMi & Maturity Models](standards/06-tmmi-maturity-models.md)** - Testing-specific process improvement
 
-### [Industry Practices](practices/)
+### [Cost of Quality](coq/)
 
-Learn from leading technology companies:
+Understanding and optimizing quality economics:
 
-- **[Google Engineering Practices](practices/google.md)** - Code review, testing, and SRE at scale
-- **[Microsoft Quality Practices](practices/microsoft.md)** - SDL, feature flags, telemetry-driven quality
-- **[Site Reliability Engineering](practices/sre.md)** - SLOs, error budgets, and toil reduction
+- **[CoSQ Foundations](coq/01-cosq-foundations.md)** - Prevention, appraisal, and failure costs
+- **[Defect Injection & Removal](coq/02-defect-injection-removal.md)** - Where defects come from and how they're removed
+- **[Defect Classification](coq/03-defect-classification.md)** - ODC and practical classification schemes
+- **[Quality Economics in DevOps](coq/04-quality-economics-devops.md)** - Shift-left economics and flaky tests
+- **[Code Review ROI](coq/05-code-review-roi.md)** - Return on investment of code review
+- **[Technical Debt](coq/06-technical-debt.md)** - Quantifying and managing technical debt
+- **[Defect Prediction with ML](coq/07-defect-prediction-ml.md)** - Machine learning for defect prediction
+
+### [Quality Planning](plan/)
+
+Building quality into project schedules and budgets:
+
+- **[Quality Management & Planning](plan/01-quality-management-planning.md)** - Four components and 11 decisions
+- **[V&V Activities & Process Models](plan/02-vv-activities-process-models.md)** - V&V across development approaches
+- **[Quality Gates & Criticality](plan/03-quality-gates-criticality.md)** - Entry/exit criteria and phase gates
+- **[Test Effort Estimation](plan/04-test-effort-estimation.md)** - Methods for estimating testing effort
+- **[Test Documentation (IEEE 829)](plan/05-test-documentation-ieee829.md)** - Master test plans and standards
+- **[Metrics, Dashboards & Reporting](plan/06-metrics-dashboards-reporting.md)** - Quality metrics and visualization
+- **[Domain-Specific V&V](plan/07-domain-specific-vv.md)** - Automotive, IoT, robotics V&V
 
 ---
 
