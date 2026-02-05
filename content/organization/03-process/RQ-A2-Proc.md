@@ -9,7 +9,7 @@ layout: default
 
 ## Purpose
 
-Revision questions and exam preparation materials for the Process Improvement lecture. Use alongside the [Study Notes: Process Improvement](SN-A2-Proc.md) for exam preparation.
+Revision questions and exam preparation materials for the Process Improvement lecture. Use alongside the [Study Notes: Process Improvement](SN-A2-Proc) for exam preparation.
 
 ---
 
