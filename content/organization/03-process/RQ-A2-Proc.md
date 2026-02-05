@@ -262,4 +262,4 @@ Level 2 Process Areas (7 total):
 
 ---
 
-*For detailed explanations, see [Study Notes: Process Improvement](SN-A2-Proc.md)*
+*For detailed explanations, see [Study Notes: Process Improvement](SN-A2-Proc)*
