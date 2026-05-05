@@ -8,84 +8,54 @@ nav_order: 1
   <img src="/images/logo/sqr_logo.png" alt="SQRBOK Logo" style="width:180px; margin-bottom: 1em;" />
 </div>
 
-# Software Quality and Reliability 📘
+# Software Quality and Reliability
 
-Welcome to the course handbook for two complementary programs:
+Course handbook for two complementary programs:
 
 - **SQR** — Software Quality & Reliability (Bachelor)
 - **QAM** — Quality Assurance & Management (Master, extends SQR with advanced topics)
 
-This resource provides a comprehensive overview of key topics, combining theoretical foundations with practical applications.
+These notes cover the full arc from quality theory and measurement through verification techniques and non-functional attributes, grounded in industry practice and current research. The goal is to equip students with the concepts and tools to build quality into a software project from the start — not to inspect it in at the end.
+
+The content reflects current industry practice: continuous integration, automated quality gates, site reliability engineering, and modern code review workflows sit alongside classical foundations. Material is regularly revised to incorporate findings from recent empirical software engineering research.
 
 ---
 
-## 📊 Overview  
+## Overview
 
-**Course topic map** covers the full scope of both courses. It is organized into four areas: defining quality, organizing quality assurance, verification methods, and quality attributes. Topics marked in yellow are planned for future editions.
+**Course topic map** covers the full scope of both courses across four areas: defining quality, organizing quality assurance, verification methods, and quality attributes. Topics marked in yellow are planned for future editions.
 
 ![Software Quality Topic Map](images/overview-asa.png)
 
-**Quality assurance in the development lifecycle** shows how quality activities integrate into a typical software project. Starting from a quality model and quality plan, the team applies verification techniques (static analysis, unit and e2e tests) during development, then code reviews and integration tests during the build phase, and finally evaluates non-functional quality attributes (maintainability, reliability, performance, security, usability) before release.
+**Quality assurance in the development lifecycle** maps course topics onto a modern CI-based development process. The diagram shows where each technique fits: static analysis and unit tests run automatically on every commit; code reviews and integration tests gate the build pipeline; and non-functional attributes — maintainability, reliability, performance, security, usability — are evaluated before release. Students are expected to apply these practices within a CI workflow, treating quality gates as first-class engineering artifacts rather than end-of-cycle activities.
 
 ![Quality Assurance in Development Lifecycle](images/overview-sqr.png)
 
 ---
 
-## 📂 Areas Covered  
+## Areas Covered
 
-### 1. [Defining Quality](/content/define/) 👥  
-Understand the essence of software quality:  
-- Quality views and perspectives  
-- Quality models and metrics  
-- Evaluating the adequacy of quality measures  
+### 1. [Defining Quality](/content/define/)
+Quality views, quality models, and the metrics that make quality measurable and comparable across projects and teams.
 
----
+### 2. [Organizing Quality](/content/organization/)
+Cost of quality, project-level quality planning, process improvement, and the standards and industry practices that operationalise these — CMMI, ISO 9000, TMMi, DevOps, SRE, PSP/TSP.
 
-### 2. [Organizing Quality](/content/organization/) 🔄
-Explore how to manage and assure quality effectively:
-- The cost of quality
-- Project-level quality management and planning
-- Quality processes and process improvement
-- Standards: CMMI, ITIL, ISO 9000, TMMi
-- Industry practices: DevOps, Agile, SRE, PSP/TSP
+### 3. [Verification and Validation](/content/verif/)
+The full range of V&V methods and when to apply each:
+- Black-box testing: domain and boundary analysis, equivalence partitioning, decision tables, classification trees, combinatorial, random and property-based, exploratory testing, operational profiles
+- White-box testing: statement, branch, MC/DC, and data-flow coverage; mutation testing
+- Inspection: code reviews, Fagan inspection, reading techniques
+- Static analysis: model checking, symbolic execution, dataflow analysis, tooling
 
----
+### 4. [Quality Attributes](/content/attributes/)
+Maintainability, reliability, performance and queuing theory, security, and usability — each treated as an engineering property with models, metrics, and design implications.
 
-### 3. [Verification and Validation](/content/verif/) 📏
-Learn methods to ensure software reliability and correctness:
-- V&V overview: definitions, method categories, when to use
-- Black Box / functional: domain & boundary testing, equivalence partitioning, decision tables, classification trees, combinatorial testing, random & property-based testing, exploratory testing, operational profiles
-- White Box / structural: statement, branch, MC/DC, data-flow coverage, mutation testing
-- Inspection: code reviews, Fagan inspection process, reading techniques
-- Static analysis: model checking, symbolic execution, dataflow analysis, tools
+### 5. [Selected Materials](/content/material/)
+Curated textbooks and key research papers, one annotation per entry explaining the core contribution and why it earns a place in the list.
 
 ---
 
-### 4. [Quality Attributes](/content/attributes/) 🧩
-Dive into key software quality attributes:
-- Maintainability
-- Reliability
-- Performance and queuing theory
-- Security
-- Usability
+## Acknowledgements
 
----
-
-### 5. [Selected Materials](/content/material/) 📚  
-Access curated references and resources:  
-- Books  
-- Research papers  
-- Guides and online courses  
-
----
-
-### 🎯 Objective  
-
-These course notes aim to:  
-- Provide a structured and accessible overview of software quality and reliability topics.  
-- Equip readers with insights that bridge theoretical concepts and real-world applications.  
-- Encourage collaboration and knowledge-sharing within the community.
-
----
-
-Feel free to explore, contribute, and enhance your understanding of software quality and reliability!
+The material and structure of these courses are inspired by the lectures of **Prof. Claire Le Goues** (Carnegie Mellon University) and **Prof. Eduardo Miranda** (Carnegie Mellon University). Their work laid the conceptual foundations on which these notes are built.
