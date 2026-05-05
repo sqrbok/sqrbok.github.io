@@ -10,16 +10,24 @@ nav_order: 1
 
 # Software Quality and Reliability 📘
 
-Welcome to the course notes repository for **Software Quality and Reliability** (with occasional insights on Security and other properties). 
-This resource aims to provide a comprehensive overview of key topics, combining theoretical foundations with practical applications. Whether you're a student, professional, or curious learner, these notes are here to guide you.
+Welcome to the course handbook for two complementary programs:
+
+- **SQR** — Software Quality & Reliability (Bachelor)
+- **QAM** — Quality Assurance & Management (Master, extends SQR with advanced topics)
+
+This resource provides a comprehensive overview of key topics, combining theoretical foundations with practical applications.
 
 ---
 
 ## 📊 Overview  
 
-Below is a visual overview of the key topics covered in this repository:
+**Course topic map** covers the full scope of both courses. It is organized into four areas: defining quality, organizing quality assurance, verification methods, and quality attributes. Topics marked in yellow are planned for future editions.
 
-![Overview of Topics](images/overview.png)  
+![Software Quality Topic Map](images/overview-asa.png)
+
+**Quality assurance in the development lifecycle** shows how quality activities integrate into a typical software project. Starting from a quality model and quality plan, the team applies verification techniques (static analysis, unit and e2e tests) during development, then code reviews and integration tests during the build phase, and finally evaluates non-functional quality attributes (maintainability, reliability, performance, security, usability) before release.
+
+![Quality Assurance in Development Lifecycle](images/overview-sqr.png)
 
 ---
 
@@ -36,17 +44,20 @@ Understand the essence of software quality:
 ### 2. [Organizing Quality](/content/organization/) 🔄
 Explore how to manage and assure quality effectively:
 - The cost of quality
-- Project-level quality management
-- Quality processes in organizations
-- Organizational strategies for software quality
+- Project-level quality management and planning
+- Quality processes and process improvement
+- Standards: CMMI, ITIL, ISO 9000, TMMi
+- Industry practices: DevOps, Agile, SRE, PSP/TSP
 
 ---
 
 ### 3. [Verification and Validation](/content/verif/) 📏
 Learn methods to ensure software reliability and correctness:
-- Functional testing (Black Box testing)
-- Structural testing (White Box testing)
-- Static analysis techniques
+- V&V overview: definitions, method categories, when to use
+- Black Box / functional: domain & boundary testing, equivalence partitioning, decision tables, classification trees, combinatorial testing, random & property-based testing, exploratory testing, operational profiles
+- White Box / structural: statement, branch, MC/DC, data-flow coverage, mutation testing
+- Inspection: code reviews, Fagan inspection process, reading techniques
+- Static analysis: model checking, symbolic execution, dataflow analysis, tools
 
 ---
 
@@ -54,6 +65,7 @@ Learn methods to ensure software reliability and correctness:
 Dive into key software quality attributes:
 - Maintainability
 - Reliability
+- Performance and queuing theory
 - Security
 - Usability
 
@@ -64,13 +76,6 @@ Access curated references and resources:
 - Books  
 - Research papers  
 - Guides and online courses  
-
----
-
-## 🛠️ Resources
-
-- **Contribution Template**: [Get started with the contribution template](/content/template/)
-  Help us improve these notes by following the provided contribution guidelines.
 
 ---
 
